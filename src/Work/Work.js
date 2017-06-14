@@ -5,45 +5,46 @@ class Work extends React.Component {
     return(
       <div className="work-container">
         <div className="work-card">
-          <img src="http://7xopqp.com1.z0.glb.clouddn.com/contain-none.jpg" />
+
+          <img src="http://orikkfb0h.bkt.clouddn.com/%281%29.jpg" />
           <div className="work-text">
-            <h3>作品一</h3>
-            <p>2016.5.6</p>
+            <h3><a href="http://demo.gagogroup.cn/luochuan">洛川数字服务平台</a></h3>
+            <p>2016.12</p>
           </div>
         </div>
         <div className="work-card">
-          <img src="http://7xopqp.com1.z0.glb.clouddn.com/contain4.jpg" />
+          <img src="http://orikkfb0h.bkt.clouddn.com/%282%29.jpg" />
           <div className="work-text">
-            <h3>作品二</h3>
-            <p>2016.5.6</p>
+            <h3><a href="https://gagogroup.cn">佳格官网</a></h3>
+            <p>2017.1</p>
           </div>
         </div>
         <div className="work-card">
-          <img src="http://7xopqp.com1.z0.glb.clouddn.com/contain1.jpg" />
+          <img src="http://orikkfb0h.bkt.clouddn.com/%283%29.jpg" />
           <div className="work-text">
-            <h3>作品三</h3>
-            <p>2016.5.6</p>
+            <h3>海升气象数字服务平台</h3>
+            <p>2017.11</p>
           </div>
         </div>
         <div className="work-card">
-          <img src="http://7xopqp.com1.z0.glb.clouddn.com/contain2.jpg" />
+          <img src="http://orikkfb0h.bkt.clouddn.com/%284%29.png" />
           <div className="work-text">
-            <h3>作品四</h3>
-            <p>2016.5.6</p>
+            <h3>保利知识检索平台</h3>
+            <p>2016.9</p>
           </div>
         </div>
         <div className="work-card">
-          <img src="http://7xopqp.com1.z0.glb.clouddn.com/contain3.jpg" />
+          <img src="http://orikkfb0h.bkt.clouddn.com/%285%29.png" />
           <div className="work-text">
-            <h3>作品五</h3>
-            <p>2016.5.6</p>
+            <h3>认知功能检测系统</h3>
+            <p>2016.5</p>
           </div>
         </div>
         <div className="work-card">
-          <img src="http://7xopqp.com1.z0.glb.clouddn.com/contain1.jpg" />
+          <img src="http://yun.honghe-tech.com/web" />
           <div className="work-text">
-            <h3>作品六</h3>
-            <p>2016.5.6</p>
+            <h3>鸿合教育云平台</h3>
+            <p>2014.8</p>
           </div>
         </div>
       </div>
