@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router';
 
 class Home extends React.Component {
   render () {
@@ -15,12 +16,13 @@ class Home extends React.Component {
           <div className="home-item">
             <h2 style={styles.h2}>HI, I'M <span style={{color:'#00bcd4'}}>CHUNYUE</span></h2>
             <p style={{marginBottom:'20px'}}>WEB DEVELOPER</p>
-            <button className="home-btn"><a href="https://github.com/chunyuezhang" style={{color:'#fff'}}>HIRE ME</a></button>
+            <button className="home-btn"><Link to="about" style={{color:"#fff"}}>HIRE ME</Link></button>
           </div>
         </div>
       </div>
     )
   }
 }
+
 
 export default Home;
